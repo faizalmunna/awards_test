@@ -1,0 +1,23 @@
+h1, h2, h3, h4 {
+    margin-top: 0px;
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+    @media #{$mq-760-down}{
+        font-size: 3rem;
+    }
+}
+h2 {
+    font-size: 2rem;
+    @media #{$mq-760-down}{
+        font-size: 1.5rem;
+    }
+}
+h3{
+    font-size:22px;
+    font-weight:100;
+    @media #{$mq-760-down}{
+        font-size:18px; 
+    }
+}

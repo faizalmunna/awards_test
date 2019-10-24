@@ -1,0 +1,14 @@
+// header css
+.header{
+    height:225px;
+    background-color:$baseBgColor;
+    display:flex;
+    justify-content:center;
+    // main title
+    &__main_title{
+        display:flex;
+        font-family:$headingFont;
+        color:$white;
+        align-items: center;
+    }
+}
